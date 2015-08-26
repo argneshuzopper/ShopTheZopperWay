@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - ACSTZWByLargeAnyOtherCategory</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>ACSTZWByLargeAnyOtherCategory</h1>
+<p>
+  Test duration: 196.326s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Functional_Scenarios.ACSTZWByLargeAnyOtherCategory</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  executeTestCase
+      </td>
+  <td class="duration">
+    111.463s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 40.24 seconds<br/>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;<br/>
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;<br/>
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}<br/>
+Session ID: b11ac646-b6cc-41da-9a94-fc859bc7a5f7<br/>
+Driver info: io.appium.java_client.android.AndroidDriver<br/>
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)<br />
+              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)<br />
+              io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:357)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)<br />
+              io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)<br />
+              Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)<br />
+              Functional_Scenarios.ACSTZWByLargeAnyOtherCategory.executeTestCase(ACSTZWByLargeAnyOtherCategory.java:46)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

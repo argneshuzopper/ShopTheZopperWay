@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MobileSTZWByCallingCategory"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.474">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="71.474" classname="Functional_Scenarios.MobileSTZWByCallingCategory" />
+      
+</testsuite>

@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shop The Zopper Way-suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="Utility.TestListener"/>
+    <listener class-name="Utility.RetryListener"/>
+  </listeners>
+  <test name="WMSTZWByMediumCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- WMSTZWByMediumCategory(failed) -->
+  <test name="MobileSTZWByPhotosCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- MobileSTZWByPhotosCategory(failed) -->
+  <test name=" ReferigeratorSTZWByLargeCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!--  ReferigeratorSTZWByLargeCategory(failed) -->
+  <test name="ACSTZWByLargeAnyOtherCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- ACSTZWByLargeAnyOtherCategory(failed) -->
+  <test name="WMSTZWByLargeCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- WMSTZWByLargeCategory(failed) -->
+  <test name="ReferigeratorSTZWByMediumCategory (failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- ReferigeratorSTZWByMediumCategory (failed) -->
+  <test name="TabletsSTZWByReadingCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- TabletsSTZWByReadingCategory(failed) -->
+  <test name="WMSTZWBySmallCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- WMSTZWBySmallCategory(failed) -->
+  <test name="ReferigeratorSTZWBySmallCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- ReferigeratorSTZWBySmallCategory(failed) -->
+  <test name="ACSTZWByLargeTopFloorCategory(failed)">
+    <classes>
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </classes>
+  </test> <!-- ACSTZWByLargeTopFloorCategory(failed) -->
+</suite> <!-- Failed suite [Shop The Zopper Way-suite] -->

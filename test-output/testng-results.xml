@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" total="20" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Shop The Zopper Way-suite" duration-ms="4877575" started-at="2015-08-24T17:27:05Z" finished-at="2015-08-24T18:48:23Z">
+    <groups>
+    </groups>
+    <test name="TabletsSTZWByMutilUseCategory" duration-ms="112201" started-at="2015-08-24T17:27:05Z" finished-at="2015-08-24T17:28:58Z">
+      <class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.TabletsSTZWByMutilUseCategory@1d7343c7]" name="initializeDrivers" is-config="true" duration-ms="39991" started-at="2015-08-24T22:57:05Z" finished-at="2015-08-24T22:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.TabletsSTZWByMutilUseCategory@1d7343c7]" name="executeTestCase" duration-ms="67561" started-at="2015-08-24T22:57:45Z" finished-at="2015-08-24T22:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.TabletsSTZWByMutilUseCategory@1d7343c7]" name="quitTest" is-config="true" duration-ms="4622" started-at="2015-08-24T22:58:53Z" finished-at="2015-08-24T22:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.TabletsSTZWByMutilUseCategory -->
+    </test> <!-- TabletsSTZWByMutilUseCategory -->
+    <test name="ACSTZWByMediumAnyOtherCategory" duration-ms="312326" started-at="2015-08-24T17:28:58Z" finished-at="2015-08-24T17:34:10Z">
+      <class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumAnyOtherCategory@77efda65]" name="initializeDrivers" is-config="true" duration-ms="40598" started-at="2015-08-24T22:58:58Z" finished-at="2015-08-24T22:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumAnyOtherCategory@77efda65]" name="quitTest" is-config="true" duration-ms="4527" started-at="2015-08-24T23:01:25Z" finished-at="2015-08-24T23:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumAnyOtherCategory@77efda65]" name="initializeDrivers" is-config="true" duration-ms="41507" started-at="2015-08-24T23:01:29Z" finished-at="2015-08-24T23:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumAnyOtherCategory@77efda65]" name="executeTestCase" duration-ms="114816" started-at="2015-08-24T23:02:11Z" finished-at="2015-08-24T23:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumAnyOtherCategory@77efda65]" name="quitTest" is-config="true" duration-ms="4631" started-at="2015-08-24T23:04:05Z" finished-at="2015-08-24T23:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumAnyOtherCategory -->
+    </test> <!-- ACSTZWByMediumAnyOtherCategory -->
+    <test name="ACSTZWBySmallAnyOtherCategory" duration-ms="161991" started-at="2015-08-24T17:34:10Z" finished-at="2015-08-24T17:36:52Z">
+      <class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWBySmallAnyOtherCategory@1e5cf0c3]" name="initializeDrivers" is-config="true" duration-ms="40512" started-at="2015-08-24T23:04:10Z" finished-at="2015-08-24T23:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ACSTZWBySmallAnyOtherCategory@1e5cf0c3]" name="executeTestCase" duration-ms="116532" started-at="2015-08-24T23:04:51Z" finished-at="2015-08-24T23:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWBySmallAnyOtherCategory@1e5cf0c3]" name="quitTest" is-config="true" duration-ms="4934" started-at="2015-08-24T23:06:47Z" finished-at="2015-08-24T23:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallAnyOtherCategory -->
+    </test> <!-- ACSTZWBySmallAnyOtherCategory -->
+    <test name="MobileSTZWByCallingCategory" duration-ms="116827" started-at="2015-08-24T17:36:52Z" finished-at="2015-08-24T17:38:49Z">
+      <class name="Functional_Scenarios.MobileSTZWByCallingCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.MobileSTZWByCallingCategory@59b982e2]" name="initializeDrivers" is-config="true" duration-ms="40666" started-at="2015-08-24T23:06:52Z" finished-at="2015-08-24T23:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.MobileSTZWByCallingCategory@59b982e2]" name="executeTestCase" duration-ms="71474" started-at="2015-08-24T23:07:33Z" finished-at="2015-08-24T23:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.MobileSTZWByCallingCategory@59b982e2]" name="quitTest" is-config="true" duration-ms="4685" started-at="2015-08-24T23:08:44Z" finished-at="2015-08-24T23:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.MobileSTZWByCallingCategory -->
+    </test> <!-- MobileSTZWByCallingCategory -->
+    <test name="WMSTZWByMediumCategory" duration-ms="305359" started-at="2015-08-24T17:38:49Z" finished-at="2015-08-24T17:43:54Z">
+      <class name="Functional_Scenarios.WMSTZWByMediumCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.WMSTZWByMediumCategory@48bcff11]" name="initializeDrivers" is-config="true" duration-ms="35033" started-at="2015-08-24T23:08:49Z" finished-at="2015-08-24T23:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.WMSTZWByMediumCategory@48bcff11]" name="executeTestCase" duration-ms="109781" started-at="2015-08-24T23:09:24Z" finished-at="2015-08-24T23:11:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: b3ac1756-7f54-4a6d-9c73-013feffe6feb
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: b3ac1756-7f54-4a6d-9c73-013feffe6feb
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.WMSTZWByMediumCategory.executeTestCase(WMSTZWByMediumCategory.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.WMSTZWByMediumCategory@48bcff11]" name="quitTest" is-config="true" duration-ms="4092" started-at="2015-08-24T23:11:14Z" finished-at="2015-08-24T23:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.WMSTZWByMediumCategory@48bcff11]" name="initializeDrivers" is-config="true" duration-ms="42874" started-at="2015-08-24T23:11:18Z" finished-at="2015-08-24T23:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.WMSTZWByMediumCategory@48bcff11]" name="quitTest" is-config="true" duration-ms="4794" started-at="2015-08-24T23:13:50Z" finished-at="2015-08-24T23:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.WMSTZWByMediumCategory -->
+    </test> <!-- WMSTZWByMediumCategory -->
+    <test name="MobileSTZWByBusinessCategory" duration-ms="297437" started-at="2015-08-24T17:43:54Z" finished-at="2015-08-24T17:48:52Z">
+      <class name="Functional_Scenarios.MobileSTZWByBusinessCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.MobileSTZWByBusinessCategory@6212cf0b]" name="initializeDrivers" is-config="true" duration-ms="44643" started-at="2015-08-24T23:13:54Z" finished-at="2015-08-24T23:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.MobileSTZWByBusinessCategory@6212cf0b]" name="quitTest" is-config="true" duration-ms="4170" started-at="2015-08-24T23:16:36Z" finished-at="2015-08-24T23:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.MobileSTZWByBusinessCategory@6212cf0b]" name="initializeDrivers" is-config="true" duration-ms="40864" started-at="2015-08-24T23:16:40Z" finished-at="2015-08-24T23:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.MobileSTZWByBusinessCategory@6212cf0b]" name="executeTestCase" duration-ms="85697" started-at="2015-08-24T23:17:21Z" finished-at="2015-08-24T23:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.MobileSTZWByBusinessCategory@6212cf0b]" name="quitTest" is-config="true" duration-ms="4945" started-at="2015-08-24T23:18:47Z" finished-at="2015-08-24T23:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.MobileSTZWByBusinessCategory -->
+    </test> <!-- MobileSTZWByBusinessCategory -->
+    <test name="ACSTZWBySmallTopFloorCategory" duration-ms="159448" started-at="2015-08-24T17:48:52Z" finished-at="2015-08-24T17:51:31Z">
+      <class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWBySmallTopFloorCategory@215bf054]" name="initializeDrivers" is-config="true" duration-ms="38574" started-at="2015-08-24T23:18:52Z" finished-at="2015-08-24T23:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ACSTZWBySmallTopFloorCategory@215bf054]" name="executeTestCase" duration-ms="115907" started-at="2015-08-24T23:19:31Z" finished-at="2015-08-24T23:21:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWBySmallTopFloorCategory@215bf054]" name="quitTest" is-config="true" duration-ms="4965" started-at="2015-08-24T23:21:26Z" finished-at="2015-08-24T23:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ACSTZWBySmallTopFloorCategory -->
+    </test> <!-- ACSTZWBySmallTopFloorCategory -->
+    <test name="MobileSTZWByGamingCategory" duration-ms="132899" started-at="2015-08-24T17:51:31Z" finished-at="2015-08-24T17:53:44Z">
+      <class name="Functional_Scenarios.MobileSTZWByGamingCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.MobileSTZWByGamingCategory@a947850]" name="initializeDrivers" is-config="true" duration-ms="43019" started-at="2015-08-24T23:21:31Z" finished-at="2015-08-24T23:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.MobileSTZWByGamingCategory@a947850]" name="executeTestCase" duration-ms="85127" started-at="2015-08-24T23:22:14Z" finished-at="2015-08-24T23:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.MobileSTZWByGamingCategory@a947850]" name="quitTest" is-config="true" duration-ms="4751" started-at="2015-08-24T23:23:40Z" finished-at="2015-08-24T23:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.MobileSTZWByGamingCategory -->
+    </test> <!-- MobileSTZWByGamingCategory -->
+    <test name="TabletsSTZWByGamingCategory" duration-ms="152037" started-at="2015-08-24T17:53:44Z" finished-at="2015-08-24T17:56:16Z">
+      <class name="Functional_Scenarios.TabletsSTZWByGamingCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.TabletsSTZWByGamingCategory@7c3fab7a]" name="initializeDrivers" is-config="true" duration-ms="34386" started-at="2015-08-24T23:23:44Z" finished-at="2015-08-24T23:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.TabletsSTZWByGamingCategory@7c3fab7a]" name="executeTestCase" duration-ms="112741" started-at="2015-08-24T23:24:19Z" finished-at="2015-08-24T23:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.TabletsSTZWByGamingCategory@7c3fab7a]" name="quitTest" is-config="true" duration-ms="4907" started-at="2015-08-24T23:26:11Z" finished-at="2015-08-24T23:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.TabletsSTZWByGamingCategory -->
+    </test> <!-- TabletsSTZWByGamingCategory -->
+    <test name="MobileSTZWByPhotosCategory" duration-ms="282264" started-at="2015-08-24T17:56:16Z" finished-at="2015-08-24T18:00:59Z">
+      <class name="Functional_Scenarios.MobileSTZWByPhotosCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.MobileSTZWByPhotosCategory@38ae87de]" name="initializeDrivers" is-config="true" duration-ms="42098" started-at="2015-08-24T23:26:16Z" finished-at="2015-08-24T23:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.MobileSTZWByPhotosCategory@38ae87de]" name="executeTestCase" duration-ms="122247" started-at="2015-08-24T23:26:58Z" finished-at="2015-08-24T23:29:01Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds waiting for presence of element located by: By.xpath: //android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[2]
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Session ID: 8127e557-9dd2-4b4c-9abf-b52466e2834b
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[2]
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Session ID: 8127e557-9dd2-4b4c-9abf-b52466e2834b
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Functional_Scenarios.BaseTest.waitforpresenceofxpathElement(BaseTest.java:141)
+	at Functional_Scenarios.MobileSTZWByPhotosCategory.executeTestCase(MobileSTZWByPhotosCategory.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[2]}
+Session ID: 8127e557-9dd2-4b4c-9abf-b52466e2834b
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.MobileSTZWByPhotosCategory@38ae87de]" name="quitTest" is-config="true" duration-ms="4632" started-at="2015-08-24T23:29:01Z" finished-at="2015-08-24T23:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.MobileSTZWByPhotosCategory@38ae87de]" name="initializeDrivers" is-config="true" duration-ms="42637" started-at="2015-08-24T23:29:05Z" finished-at="2015-08-24T23:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.MobileSTZWByPhotosCategory@38ae87de]" name="quitTest" is-config="true" duration-ms="4893" started-at="2015-08-24T23:30:54Z" finished-at="2015-08-24T23:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.MobileSTZWByPhotosCategory -->
+    </test> <!-- MobileSTZWByPhotosCategory -->
+    <test name=" ReferigeratorSTZWByLargeCategory" duration-ms="302406" started-at="2015-08-24T18:00:59Z" finished-at="2015-08-24T18:06:01Z">
+      <class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByLargeCategory@24024c39]" name="initializeDrivers" is-config="true" duration-ms="34187" started-at="2015-08-24T23:30:59Z" finished-at="2015-08-24T23:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByLargeCategory@24024c39]" name="quitTest" is-config="true" duration-ms="4578" started-at="2015-08-24T23:33:21Z" finished-at="2015-08-24T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByLargeCategory@24024c39]" name="initializeDrivers" is-config="true" duration-ms="39399" started-at="2015-08-24T23:33:26Z" finished-at="2015-08-24T23:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByLargeCategory@24024c39]" name="executeTestCase" duration-ms="111465" started-at="2015-08-24T23:34:05Z" finished-at="2015-08-24T23:35:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: fd260913-5d59-4bb1-8bb8-c961581c38aa
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: fd260913-5d59-4bb1-8bb8-c961581c38aa
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ReferigeratorSTZWByLargeCategory.executeTestCase(ReferigeratorSTZWByLargeCategory.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByLargeCategory@24024c39]" name="quitTest" is-config="true" duration-ms="4670" started-at="2015-08-24T23:35:56Z" finished-at="2015-08-24T23:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByLargeCategory -->
+    </test> <!--  ReferigeratorSTZWByLargeCategory -->
+    <test name="TabletsSTZWByVideosCategory" duration-ms="316913" started-at="2015-08-24T18:06:01Z" finished-at="2015-08-24T18:11:18Z">
+      <class name="Functional_Scenarios.TabletsSTZWByVideosCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.TabletsSTZWByVideosCategory@3c649bb0]" name="initializeDrivers" is-config="true" duration-ms="40890" started-at="2015-08-24T23:36:01Z" finished-at="2015-08-24T23:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.TabletsSTZWByVideosCategory@3c649bb0]" name="quitTest" is-config="true" duration-ms="4610" started-at="2015-08-24T23:38:28Z" finished-at="2015-08-24T23:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.TabletsSTZWByVideosCategory@3c649bb0]" name="initializeDrivers" is-config="true" duration-ms="42980" started-at="2015-08-24T23:38:33Z" finished-at="2015-08-24T23:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.TabletsSTZWByVideosCategory@3c649bb0]" name="executeTestCase" duration-ms="117508" started-at="2015-08-24T23:39:16Z" finished-at="2015-08-24T23:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.TabletsSTZWByVideosCategory@3c649bb0]" name="quitTest" is-config="true" duration-ms="4957" started-at="2015-08-24T23:41:13Z" finished-at="2015-08-24T23:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.TabletsSTZWByVideosCategory -->
+    </test> <!-- TabletsSTZWByVideosCategory -->
+    <test name="ACSTZWByLargeAnyOtherCategory" duration-ms="308867" started-at="2015-08-24T18:11:18Z" finished-at="2015-08-24T18:16:27Z">
+      <class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeAnyOtherCategory@2bb51f0]" name="initializeDrivers" is-config="true" duration-ms="39368" started-at="2015-08-24T23:41:18Z" finished-at="2015-08-24T23:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeAnyOtherCategory@2bb51f0]" name="executeTestCase" duration-ms="111463" started-at="2015-08-24T23:41:57Z" finished-at="2015-08-24T23:43:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: b11ac646-b6cc-41da-9a94-fc859bc7a5f7
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: b11ac646-b6cc-41da-9a94-fc859bc7a5f7
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ACSTZWByLargeAnyOtherCategory.executeTestCase(ACSTZWByLargeAnyOtherCategory.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeAnyOtherCategory@2bb51f0]" name="quitTest" is-config="true" duration-ms="4300" started-at="2015-08-24T23:43:49Z" finished-at="2015-08-24T23:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeAnyOtherCategory@2bb51f0]" name="initializeDrivers" is-config="true" duration-ms="36611" started-at="2015-08-24T23:43:53Z" finished-at="2015-08-24T23:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeAnyOtherCategory@2bb51f0]" name="quitTest" is-config="true" duration-ms="4584" started-at="2015-08-24T23:46:22Z" finished-at="2015-08-24T23:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeAnyOtherCategory -->
+    </test> <!-- ACSTZWByLargeAnyOtherCategory -->
+    <test name="WMSTZWByLargeCategory" duration-ms="299658" started-at="2015-08-24T18:16:27Z" finished-at="2015-08-24T18:21:27Z">
+      <class name="Functional_Scenarios.WMSTZWByLargeCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.WMSTZWByLargeCategory@39477a84]" name="initializeDrivers" is-config="true" duration-ms="34429" started-at="2015-08-24T23:46:27Z" finished-at="2015-08-24T23:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.WMSTZWByLargeCategory@39477a84]" name="quitTest" is-config="true" duration-ms="4490" started-at="2015-08-24T23:48:51Z" finished-at="2015-08-24T23:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.WMSTZWByLargeCategory@39477a84]" name="initializeDrivers" is-config="true" duration-ms="36014" started-at="2015-08-24T23:48:56Z" finished-at="2015-08-24T23:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.WMSTZWByLargeCategory@39477a84]" name="executeTestCase" duration-ms="109790" started-at="2015-08-24T23:49:32Z" finished-at="2015-08-24T23:51:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.71 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 5b2f3f36-0188-47e0-a3db-8bd7ee337158
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.71 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 5b2f3f36-0188-47e0-a3db-8bd7ee337158
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.WMSTZWByLargeCategory.executeTestCase(WMSTZWByLargeCategory.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.WMSTZWByLargeCategory@39477a84]" name="quitTest" is-config="true" duration-ms="4945" started-at="2015-08-24T23:51:22Z" finished-at="2015-08-24T23:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.WMSTZWByLargeCategory -->
+    </test> <!-- WMSTZWByLargeCategory -->
+    <test name="ReferigeratorSTZWByMediumCategory " duration-ms="320575" started-at="2015-08-24T18:21:27Z" finished-at="2015-08-24T18:26:47Z">
+      <class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByMediumCategory@6683c31c]" name="initializeDrivers" is-config="true" duration-ms="32932" started-at="2015-08-24T23:51:27Z" finished-at="2015-08-24T23:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByMediumCategory@6683c31c]" name="executeTestCase" duration-ms="130119" started-at="2015-08-24T23:52:00Z" finished-at="2015-08-24T23:54:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 7b2b3094-52fa-4e4c-b3e8-5b435e170bda
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 7b2b3094-52fa-4e4c-b3e8-5b435e170bda
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ReferigeratorSTZWByMediumCategory.executeTestCase(ReferigeratorSTZWByMediumCategory.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByMediumCategory@6683c31c]" name="quitTest" is-config="true" duration-ms="4597" started-at="2015-08-24T23:54:10Z" finished-at="2015-08-24T23:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByMediumCategory@6683c31c]" name="initializeDrivers" is-config="true" duration-ms="30604" started-at="2015-08-24T23:54:14Z" finished-at="2015-08-24T23:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWByMediumCategory@6683c31c]" name="quitTest" is-config="true" duration-ms="4279" started-at="2015-08-24T23:56:43Z" finished-at="2015-08-24T23:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWByMediumCategory -->
+    </test> <!-- ReferigeratorSTZWByMediumCategory  -->
+    <test name="TabletsSTZWByReadingCategory" duration-ms="301125" started-at="2015-08-24T18:26:47Z" finished-at="2015-08-24T18:31:48Z">
+      <class name="Functional_Scenarios.TabletsSTZWByReadingCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.TabletsSTZWByReadingCategory@e3b889b]" name="initializeDrivers" is-config="true" duration-ms="36583" started-at="2015-08-24T23:56:47Z" finished-at="2015-08-24T23:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.TabletsSTZWByReadingCategory@e3b889b]" name="executeTestCase" duration-ms="66859" started-at="2015-08-24T23:57:24Z" finished-at="2015-08-24T23:58:31Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.61 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=id, value=com.zopperapp.dev:id/iv_smart_cat1}
+Session ID: 3f1c38ce-8ad0-4e09-acdb-8a961c18c746
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.61 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=id, value=com.zopperapp.dev:id/iv_smart_cat1}
+Session ID: 3f1c38ce-8ad0-4e09-acdb-8a961c18c746
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:47)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementById(BaseTest.java:59)
+	at Functional_Scenarios.BaseTest.clickId(BaseTest.java:79)
+	at Functional_Scenarios.TabletsSTZWByReadingCategory.executeTestCase(TabletsSTZWByReadingCategory.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.TabletsSTZWByReadingCategory@e3b889b]" name="quitTest" is-config="true" duration-ms="4202" started-at="2015-08-24T23:58:31Z" finished-at="2015-08-24T23:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.TabletsSTZWByReadingCategory@e3b889b]" name="initializeDrivers" is-config="true" duration-ms="30503" started-at="2015-08-24T23:58:35Z" finished-at="2015-08-24T23:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.TabletsSTZWByReadingCategory@e3b889b]" name="quitTest" is-config="true" duration-ms="5121" started-at="2015-08-25T00:01:43Z" finished-at="2015-08-25T00:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.TabletsSTZWByReadingCategory -->
+    </test> <!-- TabletsSTZWByReadingCategory -->
+    <test name="WMSTZWBySmallCategory" duration-ms="309980" started-at="2015-08-24T18:31:48Z" finished-at="2015-08-24T18:36:58Z">
+      <class name="Functional_Scenarios.WMSTZWBySmallCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.WMSTZWBySmallCategory@52f7431]" name="initializeDrivers" is-config="true" duration-ms="38116" started-at="2015-08-25T00:01:48Z" finished-at="2015-08-25T00:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.WMSTZWBySmallCategory@52f7431]" name="executeTestCase" duration-ms="110890" started-at="2015-08-25T00:02:27Z" finished-at="2015-08-25T00:04:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 90f985a6-1c2a-4392-b5bc-63f1bab743ed
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 90f985a6-1c2a-4392-b5bc-63f1bab743ed
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.WMSTZWBySmallCategory.executeTestCase(WMSTZWBySmallCategory.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.WMSTZWBySmallCategory@52f7431]" name="quitTest" is-config="true" duration-ms="4480" started-at="2015-08-25T00:04:17Z" finished-at="2015-08-25T00:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.WMSTZWBySmallCategory@52f7431]" name="initializeDrivers" is-config="true" duration-ms="38629" started-at="2015-08-25T00:04:22Z" finished-at="2015-08-25T00:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.WMSTZWBySmallCategory@52f7431]" name="quitTest" is-config="true" duration-ms="4587" started-at="2015-08-25T00:06:54Z" finished-at="2015-08-25T00:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.WMSTZWBySmallCategory -->
+    </test> <!-- WMSTZWBySmallCategory -->
+    <test name="ACSTZWByMediumTopFloorCategory" duration-ms="161112" started-at="2015-08-24T18:36:58Z" finished-at="2015-08-24T18:39:40Z">
+      <class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumTopFloorCategory@39852afc]" name="initializeDrivers" is-config="true" duration-ms="36299" started-at="2015-08-25T00:06:58Z" finished-at="2015-08-25T00:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumTopFloorCategory@39852afc]" name="executeTestCase" duration-ms="119810" started-at="2015-08-25T00:07:35Z" finished-at="2015-08-25T00:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByMediumTopFloorCategory@39852afc]" name="quitTest" is-config="true" duration-ms="5000" started-at="2015-08-25T00:09:35Z" finished-at="2015-08-25T00:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ACSTZWByMediumTopFloorCategory -->
+    </test> <!-- ACSTZWByMediumTopFloorCategory -->
+    <test name="ReferigeratorSTZWBySmallCategory" duration-ms="218636" started-at="2015-08-24T18:39:40Z" finished-at="2015-08-24T18:43:18Z">
+      <class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWBySmallCategory@31be7a6]" name="initializeDrivers" is-config="true" duration-ms="39507" started-at="2015-08-25T00:09:40Z" finished-at="2015-08-25T00:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWBySmallCategory@31be7a6]" name="quitTest" is-config="true" duration-ms="4898" started-at="2015-08-25T00:11:26Z" finished-at="2015-08-25T00:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWBySmallCategory@31be7a6]" name="initializeDrivers" is-config="true" duration-ms="34982" started-at="2015-08-25T00:11:31Z" finished-at="2015-08-25T00:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWBySmallCategory@31be7a6]" name="executeTestCase" duration-ms="67892" started-at="2015-08-25T00:12:06Z" finished-at="2015-08-25T00:13:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[1]}
+Session ID: 78ea8637-e18d-499f-ac2d-f3d128534a8c
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[1]}
+Session ID: 78ea8637-e18d-499f-ac2d-f3d128534a8c
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.BaseTest.clickXpath(BaseTest.java:83)
+	at Functional_Scenarios.ReferigeratorSTZWBySmallCategory.executeTestCase(ReferigeratorSTZWBySmallCategory.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ReferigeratorSTZWBySmallCategory@31be7a6]" name="quitTest" is-config="true" duration-ms="4631" started-at="2015-08-25T00:13:14Z" finished-at="2015-08-25T00:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ReferigeratorSTZWBySmallCategory -->
+    </test> <!-- ReferigeratorSTZWBySmallCategory -->
+    <test name="ACSTZWByLargeTopFloorCategory" duration-ms="304765" started-at="2015-08-24T18:43:18Z" finished-at="2015-08-24T18:48:23Z">
+      <class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeTopFloorCategory@e6efc82]" name="initializeDrivers" is-config="true" duration-ms="39685" started-at="2015-08-25T00:13:18Z" finished-at="2015-08-25T00:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeTopFloorCategory@e6efc82]" name="quitTest" is-config="true" duration-ms="4336" started-at="2015-08-25T00:15:44Z" finished-at="2015-08-25T00:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeTopFloorCategory@e6efc82]" name="initializeDrivers" is-config="true" duration-ms="41404" started-at="2015-08-25T00:15:48Z" finished-at="2015-08-25T00:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeTopFloorCategory@e6efc82]" name="executeTestCase" duration-ms="108478" started-at="2015-08-25T00:16:30Z" finished-at="2015-08-25T00:18:18Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 6c9a537d-cc26-4fb5-a4c9-e1b2e1ccfce2
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LP-13', ip: '192.168.1.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 6c9a537d-cc26-4fb5-a4c9-e1b2e1ccfce2
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ACSTZWByLargeTopFloorCategory.executeTestCase(ACSTZWByLargeTopFloorCategory.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:Functional_Scenarios.ACSTZWByLargeTopFloorCategory@e6efc82]" name="quitTest" is-config="true" duration-ms="4764" started-at="2015-08-25T00:18:18Z" finished-at="2015-08-25T00:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- Functional_Scenarios.ACSTZWByLargeTopFloorCategory -->
+    </test> <!-- ACSTZWByLargeTopFloorCategory -->
+  </suite> <!-- Shop The Zopper Way-suite -->
+</testng-results>

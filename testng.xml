@@ -1,0 +1,144 @@
+<suite name="Shop The Zopper Way-suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="Utility.TestListener" />
+		<listener class-name="Utility.RetryListener" />
+	</listeners>
+
+	<test name="TabletsSTZWByMutilUseCategory">
+		<classes>
+			<class name="Functional_Scenarios.TabletsSTZWByMutilUseCategory" />
+		</classes>
+	</test>
+
+
+	<test name="ACSTZWByMediumAnyOtherCategory">
+		<classes>
+			<class name="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory" />
+		</classes>
+	</test>
+
+
+
+
+
+	<test name="ACSTZWBySmallAnyOtherCategory">
+		<classes>
+			<class name="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory" />
+		</classes>
+	</test>
+
+	<test name="MobileSTZWByCallingCategory">
+		<classes>
+			<class name="Functional_Scenarios.MobileSTZWByCallingCategory" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="WMSTZWByMediumCategory">
+		<classes>
+			<class name="Functional_Scenarios.WMSTZWByMediumCategory" />
+		</classes>
+	</test>
+
+
+
+	<test name="MobileSTZWByBusinessCategory">
+		<classes>
+			<class name="Functional_Scenarios.MobileSTZWByBusinessCategory" />
+		</classes>
+	</test>
+
+	<test name="ACSTZWBySmallTopFloorCategory">
+		<classes>
+			<class name="Functional_Scenarios.ACSTZWBySmallTopFloorCategory" />
+		</classes>
+	</test>
+
+
+	<test name="MobileSTZWByGamingCategory">
+		<classes>
+			<class name="Functional_Scenarios.MobileSTZWByGamingCategory" />
+		</classes>
+	</test>
+
+
+	<test name="TabletsSTZWByGamingCategory">
+		<classes>
+			<class name="Functional_Scenarios.TabletsSTZWByGamingCategory" />
+		</classes>
+	</test>
+
+	<test name="MobileSTZWByPhotosCategory">
+		<classes>
+			<class name="Functional_Scenarios.MobileSTZWByPhotosCategory" />
+		</classes>
+	</test>
+
+	<test name=" ReferigeratorSTZWByLargeCategory">
+		<classes>
+			<class name="Functional_Scenarios.ReferigeratorSTZWByLargeCategory" />
+		</classes>
+	</test>
+
+	<test name="TabletsSTZWByVideosCategory">
+		<classes>
+			<class name="Functional_Scenarios.TabletsSTZWByVideosCategory" />
+		</classes>
+	</test>
+
+	<test name="ACSTZWByLargeAnyOtherCategory">
+		<classes>
+			<class name="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory" />
+		</classes>
+	</test>
+
+	<test name="WMSTZWByLargeCategory">
+		<classes>
+			<class name="Functional_Scenarios.WMSTZWByLargeCategory" />
+		</classes>
+	</test>
+
+	<test name="ReferigeratorSTZWByMediumCategory ">
+		<classes>
+			<class name="Functional_Scenarios.ReferigeratorSTZWByMediumCategory" />
+		</classes>
+	</test>
+
+	<test name="TabletsSTZWByReadingCategory">
+		<classes>
+			<class name="Functional_Scenarios.TabletsSTZWByReadingCategory" />
+		</classes>
+	</test>
+
+
+
+	<test name="WMSTZWBySmallCategory">
+		<classes>
+			<class name="Functional_Scenarios.WMSTZWBySmallCategory" />
+		</classes>
+	</test>
+
+	<test name="ACSTZWByMediumTopFloorCategory">
+		<classes>
+			<class name="Functional_Scenarios.ACSTZWByMediumTopFloorCategory" />
+		</classes>
+	</test>
+
+	<test name="ReferigeratorSTZWBySmallCategory">
+		<classes>
+			<class name="Functional_Scenarios.ReferigeratorSTZWBySmallCategory" />
+		</classes>
+	</test>
+
+	<test name="ACSTZWByLargeTopFloorCategory">
+		<classes>
+			<class name="Functional_Scenarios.ACSTZWByLargeTopFloorCategory" />
+		</classes>
+	</test> 
+
+
+</suite>

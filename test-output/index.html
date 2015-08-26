@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite">
+              <span class="suite-name border-failed">Shop The Zopper Way-suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Shop_The_Zopper_Way-suite">
+                    <span>D:\Zopper\ShopTheZopperWay\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Shop_The_Zopper_Way-suite">
+                    <span class="test-stats">20 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Shop_The_Zopper_Way-suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Shop_The_Zopper_Way-suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Shop_The_Zopper_Way-suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Shop_The_Zopper_Way-suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Shop_The_Zopper_Way-suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 10 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Shop_The_Zopper_Way-suite" class="hide-methods failed suite-Shop_The_Zopper_Way-suite"> (hide)</a> <!-- hide-methods failed suite-Shop_The_Zopper_Way-suite -->
+                      <a href="#" panel-name="suite-Shop_The_Zopper_Way-suite" class="show-methods failed suite-Shop_The_Zopper_Way-suite"> (show)</a> <!-- show-methods failed suite-Shop_The_Zopper_Way-suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Shop_The_Zopper_Way-suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.WMSTZWByMediumCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.MobileSTZWByPhotosCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ReferigeratorSTZWByLargeCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ACSTZWByLargeAnyOtherCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.WMSTZWByLargeCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ReferigeratorSTZWByMediumCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.TabletsSTZWByReadingCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.WMSTZWBySmallCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ReferigeratorSTZWBySmallCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ACSTZWByLargeTopFloorCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Shop_The_Zopper_Way-suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Shop_The_Zopper_Way-suite" class="hide-methods passed suite-Shop_The_Zopper_Way-suite"> (hide)</a> <!-- hide-methods passed suite-Shop_The_Zopper_Way-suite -->
+                      <a href="#" panel-name="suite-Shop_The_Zopper_Way-suite" class="show-methods passed suite-Shop_The_Zopper_Way-suite"> (show)</a> <!-- show-methods passed suite-Shop_The_Zopper_Way-suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Shop_The_Zopper_Way-suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.TabletsSTZWByMutilUseCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ACSTZWByMediumAnyOtherCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ACSTZWBySmallAnyOtherCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.MobileSTZWByCallingCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.MobileSTZWByBusinessCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ACSTZWBySmallTopFloorCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.MobileSTZWByGamingCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.TabletsSTZWByGamingCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.TabletsSTZWByVideosCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Shop_The_Zopper_Way-suite" title="Functional_Scenarios.ACSTZWByMediumTopFloorCategory" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Shop_The_Zopper_Way-suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Shop_The_Zopper_Way-suite" class="panel Shop_The_Zopper_Way-suite">
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.ReferigeratorSTZWBySmallCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[1]}
+Session ID: 78ea8637-e18d-499f-ac2d-f3d128534a8c
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.BaseTest.clickXpath(BaseTest.java:83)
+	at Functional_Scenarios.ReferigeratorSTZWBySmallCategory.executeTestCase(ReferigeratorSTZWBySmallCategory.java:26)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.WMSTZWByLargeCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.71 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 5b2f3f36-0188-47e0-a3db-8bd7ee337158
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.WMSTZWByLargeCategory.executeTestCase(WMSTZWByLargeCategory.java:33)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.ReferigeratorSTZWByMediumCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 7b2b3094-52fa-4e4c-b3e8-5b435e170bda
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ReferigeratorSTZWByMediumCategory.executeTestCase(ReferigeratorSTZWByMediumCategory.java:35)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.MobileSTZWByPhotosCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[2]
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+Session ID: 8127e557-9dd2-4b4c-9abf-b52466e2834b
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Functional_Scenarios.BaseTest.waitforpresenceofxpathElement(BaseTest.java:141)
+	at Functional_Scenarios.MobileSTZWByPhotosCategory.executeTestCase(MobileSTZWByPhotosCategory.java:61)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.view.View /android.view.View /android.view.View /android.view.View[2]}
+Session ID: 8127e557-9dd2-4b4c-9abf-b52466e2834b
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:106)
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:103)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 26 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.ACSTZWByLargeTopFloorCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 6c9a537d-cc26-4fb5-a4c9-e1b2e1ccfce2
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ACSTZWByLargeTopFloorCategory.executeTestCase(ACSTZWByLargeTopFloorCategory.java:48)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.ReferigeratorSTZWByLargeCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: fd260913-5d59-4bb1-8bb8-c961581c38aa
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ReferigeratorSTZWByLargeCategory.executeTestCase(ReferigeratorSTZWByLargeCategory.java:35)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.WMSTZWBySmallCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: 90f985a6-1c2a-4392-b5bc-63f1bab743ed
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.WMSTZWBySmallCategory.executeTestCase(WMSTZWBySmallCategory.java:33)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.WMSTZWByMediumCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: b3ac1756-7f54-4a6d-9c73-013feffe6feb
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.WMSTZWByMediumCategory.executeTestCase(WMSTZWByMediumCategory.java:34)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.TabletsSTZWByReadingCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.61 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=id, value=com.zopperapp.dev:id/iv_smart_cat1}
+Session ID: 3f1c38ce-8ad0-4e09-acdb-8a961c18c746
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:47)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementById(BaseTest.java:59)
+	at Functional_Scenarios.BaseTest.clickId(BaseTest.java:79)
+	at Functional_Scenarios.TabletsSTZWByReadingCategory.executeTestCase(TabletsSTZWByReadingCategory.java:39)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Functional_Scenarios.ACSTZWByLargeAnyOtherCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LP-13&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+*** Element info: {Using=xpath, value=//android.widget.FrameLayout /android.support.v7.widget.RecyclerView /android.widget.RelativeLayout[1] /android.widget.TextView[1]}
+Session ID: b11ac646-b6cc-41da-9a94-fc859bc7a5f7
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platform=LINUX, app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, javascriptEnabled=true, browserName=Android, desired={app=C:\sdk\build-tools\android-4.4W\app-debug-12502.apk, platformVersion=4.4.2, deviceName=SM-N750, platformName=Android, app-package=com.zopperapp.dev, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, platformname=Android}, platformVersion=4.4.2, databaseEnabled=false, platformName=Android, deviceName=SM-N750, app-package=com.zopperapp.dev, webStorageEnabled=false, platformname=Android, app-activity=com.zopper.aegon.ui.activity.OnBoardingActivity, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Functional_Scenarios.BaseTest.findElementByXpath(BaseTest.java:67)
+	at Functional_Scenarios.ACSTZWByLargeAnyOtherCategory.executeTestCase(ACSTZWByLargeAnyOtherCategory.java:46)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-failed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.TabletsSTZWByVideosCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.ACSTZWBySmallAnyOtherCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.MobileSTZWByCallingCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.ACSTZWByMediumTopFloorCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.TabletsSTZWByMutilUseCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.MobileSTZWByBusinessCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.ACSTZWBySmallTopFloorCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.ACSTZWByMediumAnyOtherCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.TabletsSTZWByGamingCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+          <div class="suite-Shop_The_Zopper_Way-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Functional_Scenarios.MobileSTZWByGamingCategory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shop_The_Zopper_Way-suite-class-passed -->
+        </div> <!-- panel Shop_The_Zopper_Way-suite -->
+        <div panel-name="test-xml-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Zopper\ShopTheZopperWay\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Shop The Zopper Way-suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;Utility.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;Utility.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;TabletsSTZWByMutilUseCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.TabletsSTZWByMutilUseCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TabletsSTZWByMutilUseCategory --&gt;
+  &lt;test name=&quot;ACSTZWByMediumAnyOtherCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ACSTZWByMediumAnyOtherCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ACSTZWByMediumAnyOtherCategory --&gt;
+  &lt;test name=&quot;ACSTZWBySmallAnyOtherCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ACSTZWBySmallAnyOtherCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ACSTZWBySmallAnyOtherCategory --&gt;
+  &lt;test name=&quot;MobileSTZWByCallingCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.MobileSTZWByCallingCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileSTZWByCallingCategory --&gt;
+  &lt;test name=&quot;WMSTZWByMediumCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.WMSTZWByMediumCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WMSTZWByMediumCategory --&gt;
+  &lt;test name=&quot;MobileSTZWByBusinessCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.MobileSTZWByBusinessCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileSTZWByBusinessCategory --&gt;
+  &lt;test name=&quot;ACSTZWBySmallTopFloorCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ACSTZWBySmallTopFloorCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ACSTZWBySmallTopFloorCategory --&gt;
+  &lt;test name=&quot;MobileSTZWByGamingCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.MobileSTZWByGamingCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileSTZWByGamingCategory --&gt;
+  &lt;test name=&quot;TabletsSTZWByGamingCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.TabletsSTZWByGamingCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TabletsSTZWByGamingCategory --&gt;
+  &lt;test name=&quot;MobileSTZWByPhotosCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.MobileSTZWByPhotosCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileSTZWByPhotosCategory --&gt;
+  &lt;test name=&quot; ReferigeratorSTZWByLargeCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ReferigeratorSTZWByLargeCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  ReferigeratorSTZWByLargeCategory --&gt;
+  &lt;test name=&quot;TabletsSTZWByVideosCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.TabletsSTZWByVideosCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TabletsSTZWByVideosCategory --&gt;
+  &lt;test name=&quot;ACSTZWByLargeAnyOtherCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ACSTZWByLargeAnyOtherCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ACSTZWByLargeAnyOtherCategory --&gt;
+  &lt;test name=&quot;WMSTZWByLargeCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.WMSTZWByLargeCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WMSTZWByLargeCategory --&gt;
+  &lt;test name=&quot;ReferigeratorSTZWByMediumCategory &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ReferigeratorSTZWByMediumCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReferigeratorSTZWByMediumCategory  --&gt;
+  &lt;test name=&quot;TabletsSTZWByReadingCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.TabletsSTZWByReadingCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TabletsSTZWByReadingCategory --&gt;
+  &lt;test name=&quot;WMSTZWBySmallCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.WMSTZWBySmallCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WMSTZWBySmallCategory --&gt;
+  &lt;test name=&quot;ACSTZWByMediumTopFloorCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ACSTZWByMediumTopFloorCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ACSTZWByMediumTopFloorCategory --&gt;
+  &lt;test name=&quot;ReferigeratorSTZWBySmallCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ReferigeratorSTZWBySmallCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReferigeratorSTZWBySmallCategory --&gt;
+  &lt;test name=&quot;ACSTZWByLargeTopFloorCategory&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Functional_Scenarios.ACSTZWByLargeTopFloorCategory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ACSTZWByLargeTopFloorCategory --&gt;
+&lt;/suite&gt; &lt;!-- Shop The Zopper Way-suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Shop The Zopper Way-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TabletsSTZWByMutilUseCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ACSTZWByMediumAnyOtherCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ACSTZWBySmallAnyOtherCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileSTZWByCallingCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WMSTZWByMediumCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileSTZWByBusinessCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ACSTZWBySmallTopFloorCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileSTZWByGamingCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TabletsSTZWByGamingCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileSTZWByPhotosCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> ReferigeratorSTZWByLargeCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TabletsSTZWByVideosCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ACSTZWByLargeAnyOtherCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WMSTZWByLargeCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ReferigeratorSTZWByMediumCategory  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TabletsSTZWByReadingCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WMSTZWBySmallCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ACSTZWByMediumTopFloorCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ReferigeratorSTZWBySmallCategory (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ACSTZWByLargeTopFloorCategory (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Shop The Zopper Way-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Shop The Zopper Way-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Shop_The_Zopper_Way-suite');
+function tableData_Shop_The_Zopper_Way-suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'executeTestCase')
+data.setCell(0, 2, 'Functional_Scenarios.ReferigeratorSTZWByMediumCategory')
+data.setCell(0, 3, 130119);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'executeTestCase')
+data.setCell(1, 2, 'Functional_Scenarios.MobileSTZWByPhotosCategory')
+data.setCell(1, 3, 122247);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'executeTestCase')
+data.setCell(2, 2, 'Functional_Scenarios.ACSTZWByMediumTopFloorCategory')
+data.setCell(2, 3, 119810);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'executeTestCase')
+data.setCell(3, 2, 'Functional_Scenarios.TabletsSTZWByVideosCategory')
+data.setCell(3, 3, 117508);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'executeTestCase')
+data.setCell(4, 2, 'Functional_Scenarios.ACSTZWBySmallAnyOtherCategory')
+data.setCell(4, 3, 116532);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'executeTestCase')
+data.setCell(5, 2, 'Functional_Scenarios.ACSTZWBySmallTopFloorCategory')
+data.setCell(5, 3, 115907);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'executeTestCase')
+data.setCell(6, 2, 'Functional_Scenarios.ACSTZWByMediumAnyOtherCategory')
+data.setCell(6, 3, 114816);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'executeTestCase')
+data.setCell(7, 2, 'Functional_Scenarios.TabletsSTZWByGamingCategory')
+data.setCell(7, 3, 112741);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'executeTestCase')
+data.setCell(8, 2, 'Functional_Scenarios.ReferigeratorSTZWByLargeCategory')
+data.setCell(8, 3, 111465);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'executeTestCase')
+data.setCell(9, 2, 'Functional_Scenarios.ACSTZWByLargeAnyOtherCategory')
+data.setCell(9, 3, 111463);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'executeTestCase')
+data.setCell(10, 2, 'Functional_Scenarios.WMSTZWBySmallCategory')
+data.setCell(10, 3, 110890);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'executeTestCase')
+data.setCell(11, 2, 'Functional_Scenarios.WMSTZWByLargeCategory')
+data.setCell(11, 3, 109790);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'executeTestCase')
+data.setCell(12, 2, 'Functional_Scenarios.WMSTZWByMediumCategory')
+data.setCell(12, 3, 109781);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'executeTestCase')
+data.setCell(13, 2, 'Functional_Scenarios.ACSTZWByLargeTopFloorCategory')
+data.setCell(13, 3, 108478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'executeTestCase')
+data.setCell(14, 2, 'Functional_Scenarios.MobileSTZWByBusinessCategory')
+data.setCell(14, 3, 85697);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'executeTestCase')
+data.setCell(15, 2, 'Functional_Scenarios.MobileSTZWByGamingCategory')
+data.setCell(15, 3, 85127);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'executeTestCase')
+data.setCell(16, 2, 'Functional_Scenarios.MobileSTZWByCallingCategory')
+data.setCell(16, 3, 71474);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'executeTestCase')
+data.setCell(17, 2, 'Functional_Scenarios.ReferigeratorSTZWBySmallCategory')
+data.setCell(17, 3, 67892);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'executeTestCase')
+data.setCell(18, 2, 'Functional_Scenarios.TabletsSTZWByMutilUseCategory')
+data.setCell(18, 3, 67561);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'executeTestCase')
+data.setCell(19, 2, 'Functional_Scenarios.TabletsSTZWByReadingCategory')
+data.setCell(19, 3, 66859);
+window.suiteTableData['Shop_The_Zopper_Way-suite']= { tableData: data, tableDiv: 'times-div-Shop_The_Zopper_Way-suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 minutes</span>
+              <div id="times-div-Shop_The_Zopper_Way-suite">
+              </div> <!-- times-div-Shop_The_Zopper_Way-suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Shop The Zopper Way-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Shop_The_Zopper_Way-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.TabletsSTZWByMutilUseCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">39991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">107554 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ACSTZWByMediumAnyOtherCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">112336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">152934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">259178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">263705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">305212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">420029 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ACSTZWBySmallAnyOtherCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">424743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">465255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">581797 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.MobileSTZWByCallingCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">586741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">627407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">698882 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.WMSTZWByMediumCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">703617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">738650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">848435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">852528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">895402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1004181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.MobileSTZWByBusinessCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1009047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1053690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1170804 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1174974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1215839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1301537 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ACSTZWBySmallTopFloorCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1306497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1345071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1460979 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.MobileSTZWByGamingCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1465951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1508970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1594098 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.TabletsSTZWByGamingCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1598871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1633257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1745999 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.MobileSTZWByPhotosCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1750952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1793050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1915302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1919934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1962571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2028320 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ReferigeratorSTZWByLargeCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2033276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2067463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2175564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2180142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2219541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2331010 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.TabletsSTZWByVideosCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2335756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2376646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2482610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2487221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2530201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2647710 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ACSTZWByLargeAnyOtherCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2652681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2692049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2803516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2807816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2844427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2956963 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.WMSTZWByLargeCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">2961610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2996039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">3106023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">3110513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">3146527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">3256321 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ReferigeratorSTZWByMediumCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">3261286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">3294218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">3424341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">3428939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">3459544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">3577581 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.TabletsSTZWByReadingCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">3581874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">3618457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">3685318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">3689520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">3720023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">3877876 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.WMSTZWBySmallCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">3883009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">3921125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4032018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">4036499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">4075128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4188401 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ACSTZWByMediumTopFloorCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">4193018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">4229317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4349129 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ReferigeratorSTZWBySmallCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">4354134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">4393641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4460364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">4465263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">4500245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4568139 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Functional_Scenarios.ACSTZWByLargeTopFloorCategory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">4572789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">4612474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4718569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">4722905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">4764309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">4872789 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
